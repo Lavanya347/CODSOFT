@@ -1,0 +1,254 @@
+* {
+  overflow-x: hidden;
+}
+.navbar {
+  float: inline;
+  background-color: cornflowerblue aqua;
+}
+.navbar a {
+  color: black;
+  float: inline-start;
+  text-align: center;
+  padding: 14px 45px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover {
+  background-color: black;
+  color: white;
+}
+.main {
+  margin: 0%;
+  text-align: center;
+  background-image: url("images/images_bg.jfif");
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main-t {
+  margin-top: 5%;
+  text-align: center;
+  color: #ffffff;
+}
+.main-t h1 {
+  font-size: 40px;
+}
+.main-t h2 {
+  font-size: 32px;
+}
+.btns {
+  padding: 20px;
+  margin-left: 15px;
+  padding: 13px 25px;
+  background-color: #f2f2f2;
+}
+.btn:hover {
+  color: white;
+  background-color: black;
+}
+.about {
+  background-color: rgb(48, 48, 49);
+  text-align: center;
+  color: #fcfdf7;
+}
+.row {
+  display: flex;
+  background-image: url("images/images.jfif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  height: 500px;
+}
+.column {
+  flex: 50%;
+  margin: 6px 15px;
+  color: #d2e57b;
+}
+.column .p {
+  margin-top: 20%;
+  padding: 10px;
+  line-height: 40px;
+}
+.column progress {
+  margin: 45px 10px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+.projects {
+  text-align: center;
+  color: #9bb80c;
+  background-color: rgb(7, 8, 8);
+}
+.row {
+  display: flex;
+}
+.column {
+  flex: 50%;
+  margin: 5px;
+  overflow: hidden;
+}
+.column img {
+  height: 42%;
+  overflow: hidden;
+  margin: 5px;
+  padding: 3px;
+  border: 5px solid rgb(243, 163, 123);
+}
+.contact {
+  background-color: #8dcfe1;
+  color: #10100e;
+  text-align: center;
+}
+.form {
+  overflow: hidden;
+  text-align: center;
+  background-image: url("images/images.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+form {
+  margin: 10%;
+  overflow: hidden;
+}
+input {
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  border: 2px solid #e4ef51;
+  border-radius: 4px;
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 3%;
+  resize: none;
+}
+textarea {
+  width: 100%;
+  height: 100px;
+  margin: 3%;
+  box-sizing: border-box;
+  border: 2px solid #c8ec5d;
+  border-radius: 4px;
+  background-color: #ffffff;
+  resize: none;
+}
+#btn-s {
+  width: 30%;
+}
+.footer {
+  overflow: hidden;
+  height: 250px;
+  background-color: cornflowerblue;
+  border: 4px solid rgb(5, 5, 5);
+}
+.footer h1 {
+  text-align: center;
+  border-bottom: 2px solid #10100e;
+}
+.navbar-f {
+  margin: 30px 70px;
+}
+.navbar-f a {
+  color: black;
+  float: inline-start;
+  text-align: center;
+  padding: 15px 35px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.navbar-f a:hover {
+  background-color: black;
+  color: white;
+}
+.footer p {
+  text-align: center;
+}
+@media screen and (min-width: 1500px) {
+  .main {
+    background-image: url("images/photo-1470790376778-a9fbc86d70e2.avif");
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .main-t {
+    margin-top: 5%;
+    text-align: center;
+    color: #000000;
+  }
+  .navbar {
+    float: inline;
+    background-color: rgb(210, 254, 242);
+  }
+  .navbar a {
+    color: black;
+    float: inline-start;
+    text-align: center;
+    padding: 14px 120px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .column {
+    flex: 50%;
+    margin: 6px 25px;
+    padding-bottom: 10px;
+    color: #ffffff;
+  }
+  .column .p {
+    margin-top: 15%;
+    padding: 10px;
+    letter-spacing: 4px;
+    line-height: 40px;
+  }
+  .column progress {
+    margin: 5%;
+    margin-bottom: 5px;
+    padding: 10px;
+    width: 500px;
+  }
+  .projects {
+    text-align: center;
+    color: #e2f364;
+    background-color: rgb(7, 8, 8);
+  }
+  .projects .row {
+    display: flex;
+    height: 900px;
+  }
+  .column {
+    flex: 50%;
+    margin: 5px;
+    overflow: hidden;
+  }
+  .column img {
+    overflow: hidden;
+    margin: 5px;
+    padding: 3px;
+    border: 5px solid rgb(243, 163, 123);
+  }
+  .form {
+    height: 600px;
+  }
+  form {
+    margin: 2%;
+    overflow: hidden;
+  }
+  input {
+    width: 50%;
+    height: 60px;
+    margin: 2%;
+  }
+  textarea {
+    width: 50%;
+    height: 130px;
+    margin: 2%;
+  }
+  #btn-s {
+    width: 25%;
+    height: 50px;
+    background-color: #10100e;
+    color: yellow;
+  }
+  .navbar-f {
+    margin: 30px 480px;
+  }
+}
